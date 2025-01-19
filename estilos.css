@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #070400;
+  color: #0acf56;
+}
+
+.sidebar {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  border: thick solid #0acf56;
+  padding: 10px;
+}
+
+h1 {
+  text-align: left;
+  padding: 10px;
+}
+
+.features {
+  text-align: center;
+  display: grid;
+  display: contents;
+  justify-content: center;
+  padding: 10px;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
